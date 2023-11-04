@@ -1,22 +1,89 @@
-## Introduction
+# Обектно-ориентирано програмиране на Java - 2019/2020
 
-Hi colleagues, within this project, you can find all the projects and exercises that have been developed and shown in the Java OOP 2019 - 2020 course at Plovdiv Univercity.
+### 🚀 Учебна програма
 
-## Organizing the material by class
-The courses are held every week, with one class on Wednesdays from 8:15 am to 13:30 am. The materials are divided into weeks, each of the weeks beginning with an identifier **@week** - {**week-number**} where :
-- {**week-number**} is the week numbers described in the syllabus
+В рамките на дисциплината ще говорим за два важни аспекта на програмирането, които са както независими от езика, така и силно свързани с Java като програмна технология. Предоставената учебна програма, съдържа и връзки към материалите, които сме разработили по време на упражненията, както и кореспондиращите домашни, с които ще се предизвикате в последствие. 
 
-**Disclaimer**
-If certain classes undergo a restructuring during the course, the naming convention will be preserved for consistency and the extraordinary identifier will be explicitly described in this file.
-
-## Organizing Material by Activity
-In each of the folders, you can find materials that will be easily divided into two categories.
-* Exercises in class. During the active exercises, a topic will be discussed and many examples and tasks will be solved. You will find the practical solutions in the **$course-work** folder
-* Self-study exercises. After the end of most of the exercises, self-study tasks will be given to improve your understanding of the concepts we have examined. You can find the homework assignments in the **$home-work** folder
-* Extra materials used during the course activities. You can find them in the **$extra-work** folder
-
-## Contacts and comunication 
-If you have any extra questions the official E-mail for corespondation with me regarding the topics of this course is **mail@mihail-petrov.me**
-
-## Marks and Scores
-The official marks and scores of the course  [ can be found HERE](https://docs.google.com/spreadsheets/d/1ZPbzR76i7ToggDsaRYjxqlzkHJ410molyKE3VOll44I/edit?usp=sharing)
+<table>
+    <thead>
+        <tr>
+            <th  colspan="3">Обектно ориентирано програмиране</th>
+        </tr>
+        <tr>
+            <th width="120">N</th>
+            <th width="280px">Тема</th>
+            <th width="610px">Какво разглеждаме</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><code>седмица 1</code></td>
+            <td><a href="./week-01">Анализ и дизайн на приложения</a></td>
+            <td>
+            - Въведение в дисциплината. <br>
+            - Въведение в концепцията на ооп <br>
+            - Преговор с разширение, обекти, класове и наследяване <br>
+            </td>
+        </tr>
+        <tr>
+            <td><code>седмица 2</code></td>
+            <td><a href="./week-02">Разработка на GameManager</a></td>
+            <td>
+            - Рефакториране на класа GameBoard <br>
+            - Размисли по темата за управление на класовете и обектите <br>
+            - Добавяне на полетата за цвят <br>
+            - Рендениране на шахматната дъска <br>
+            - Рендениране на фигурите върху дъската <br>
+            - Имплементация на движение на фигури
+            </td>
+        </tr>
+        <tr>
+            <td><code>седмица 3</code></td>
+            <td><a href="./week-03">Имплементация на движението</a></td>
+            <td>
+            - Рефакториране на класа GameBoard <br>
+            - Въвеждане на нов клас, за складиране на общата логика между всички фигури на шахматната дъска <br>
+            - Въвеждане на концепцията абстрактен клас <br>
+            - Разглеждане на концепцията за капсулация на свързани класове
+            </td>
+        </tr>
+        <tr>
+            <td><code>седмица 4</code></td>
+            <td>
+              <a href="./week-04">
+                Списъчни структури - имплементация
+              </a>
+            </td>
+            <td>
+            - Списъчна структура като концепция
+            - Разлика между ArrayList и масив
+            - Имплементация, на генерична структура
+            </td>
+        </tr>
+        <tr>
+            <td><code>седмица 5</code></td>
+            <td><a href="./week-05">Работа с интерфейси</a></td>
+            <td>
+            - Какво е интерфейс - концепция
+            - Интерфейса като договор
+            - Разлика между абстрактен клас и интерфейс
+            </td>
+        </tr>                
+        <tr>
+            <td><code>седмица 7</code></td>
+            <td><a href="./week-07">Работа с изключения</a></td>
+            <td>
+            - Изключения (Exceptions) <br>
+            - Йерархия на изключения <br>
+            - Разлика между checked и unchecked exceptions <br>
+            - Обработка на изключения (Exception Handling) <br>
+            - try-catch-finally block <br>
+            - try with resources <br>
+            - Хвърляне на изключения (Throw Exception) <br>
+            - Отговорност на методите при работа с изключения <br>
+            - Често срещани изключения в Java <br>
+            - Най-популярното изключение в Java - NullPointerException (unchecked runtime exception)
+            </td>
+        </tr>
+    <tbody>
+</table>
